@@ -539,8 +539,6 @@ img {
 /* PLANILHA DE PRECOS ESCOLHA SEU PLANO */
 
 .planilha-de-precos {
-  max-width: 250px;
-  margin: 0 auto;
   gap: 20px;
   padding: 2px;
   display: grid;
@@ -553,6 +551,8 @@ img {
   .planilha-de-precos {
     justify-content: center;
     grid-template-columns: auto;
+    max-width: 100px;
+    margin: 0 auto;
   }
 }
 
